@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arkademy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+   <!-- Apa yang dimaksud dengan Grid System Bootstrap ?
+
+      *Grid System adalah sistem pengaturan lebar untuk masing-masing komponen yang ingin kita buat. Pengaturan ini bertujuan untuk mengatur ke-responsive-an website yang kita buat.
+
+      *Penerapannya ada di bagian Reservation -> Phone Number dan Nationality.
+  -->
+
+    <style>
+    .jumbotron {
+      background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("ImageBackground.png");
+      background-size: cover;
+      text-align: center;
+      height: 720px;
+    }
+
+    /*a Better way to*/
+    .first {
+        color: #fff;
+        font-family:'Pacifico', cursive;
+        font-style: Regular;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 84px;
+        line-height: 100%;
+        align: center;
+        vertical-align: top;
+    }
+
+    /*Travel to Bali*/
+    .lead {
+        color: #FCB371;
+        font-family: 'Pacifico','glyphicons-halflings-regular';
+        font-style: Regular;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 84px;
+        line-height: 84px;
+        line-height: 100%;
+        align: center;
+        vertical-align: top;
+        margin-top: 30px;
+    }
+
+    /*Cheapest and Easier*/
+    .small  {
+        color: #FFFFFF;
+        font-family: 'SF Pro Display', 'Roboto Condensed',sans-serif;
+        font-style: Regular;
+        font-size: 14px;
+        align: center;
+        vertical-align: top;
+        margin-top: 25px;
+    }
+
+    .btn-login {
+        color: #FCB371;
+        cursor: pointer;
+        background: none;
+        border: 2px solid #FCB371;
+        border-radius: 6px;
+        box-sizing: border-box;
+        width: 156px;
+        height: 46px;
+        font-family: 'Pacifico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 21px;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+    
+    .btn-login:hover {
+        background: #FCB371;
+        color: #FFFFFF;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+      <div class="container">
+         <div class="text-center">
+            <img src="IconBali.png" alt="icon">
+         </div>
+         <h1 class="first">a Better way to</h1>
+         <p class="lead">Travel to Bali</p>
+         <p class="small">Cheapest and Easier</p>
+        <a class="btn btn-login" href="aboutus.html" role="button">About Us</a>
+        <a class="btn btn-login" href="reservation.html" role="button">Reservation</a>
+      </div>  
+    </div>
+</body>
+</html>
