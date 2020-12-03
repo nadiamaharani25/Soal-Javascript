@@ -1,1 +1,1 @@
-# Soal-Javascript
+# Arkademy-Javascript LEVEL 1
