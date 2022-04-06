@@ -1,6 +1,6 @@
 //SOAL 1
 var nama='Nadia Maharani';
-let umur=24;
+let ukuranSepatu=40;
 var alamat='Jl.Urip Sumoharjo, Palembang';
 let hobi=['Menulis','Desain','Ngoding','Traveling'];
 const asalSekolah='UIN Raden Fatah Palembang';
