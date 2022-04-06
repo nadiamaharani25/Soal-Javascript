@@ -86,4 +86,4 @@ console.log(total)
 //Console.log gabungan di soal 2
 console.log(`${universitas.name} ${universitas.jurusan}`)
 console.log(`Pengalaman organisasi saya adalah saya pernah di amanahkan menjadi ${pengalamanOrganisasi.name} pada tahun ${pengalamanOrganisasi.year}`)
-console.log(`Nama saya ${nama}, Usia ${usia} tahun`)
+console.log(`Nama saya ${nama}, No Rumah ${noRumah}`)
