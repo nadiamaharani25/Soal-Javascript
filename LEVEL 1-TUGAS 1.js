@@ -2,7 +2,7 @@
 var nama='Nadia Maharani \n';
 
 //Number
-var umur=24;
+var ukuranSepatu=40;
   
 //String
 var alamat='\n Jln.Urip Sumoharjo Blok Zeni, Palembang \n';
@@ -34,7 +34,7 @@ var alasanTerimaBootcamp='\n Alasan mengapa Bootcamp Arkademy perlu menerima say
 
 
 console.log(nama);
-console.log(umur);
+console.log(ukuranSepatu);
 console.log(alamat);
 console.log(hobi);
 console.log(`\n Asal saya dari ${asal.univ}, jurusan ${asal.jurusan}.`);
