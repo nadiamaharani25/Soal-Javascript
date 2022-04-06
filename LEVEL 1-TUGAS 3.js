@@ -25,12 +25,11 @@
 
 //Tipe Data String di Javascript
 const nama='Nadia Maharani';
-const tanggalLahir='25 September 1996';
 let alamat='Jl.Urip Sumoharjo, Palembang';
 
 //Tipe Data Numbers di Javascript
 let noHandphone= 082289510227;
-let usia= 24;
+let noRumah=25 ;
 let ukuranSepatu= 41;
 
 //Tipe Data Boolean di Javascript
